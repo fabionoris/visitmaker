@@ -24,7 +24,9 @@ or the extended form:
 visitmaker --url URL --size NUMBER_OF_REQUESTS
 ```
 
-where `URL` is the website to be visited and `NUMBER_OF_REQUESTS` is the number of visits to be made. Note that the protocol (`http`, `https`) is required.
+where `URL` is the website to be visited and `NUMBER_OF_REQUESTS` is the number of visits to be made.
+
+Please note that the protocol (`http`, `https`) is strictly required.
 
 
 ## Example
