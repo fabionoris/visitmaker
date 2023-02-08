@@ -5,7 +5,7 @@ A fast tool for performing multiple visits to a user-specified URL. Built with a
 
 ## Requirements
 
-To use this program, you must have Python 3.7 or higher installed on your system. You also need to install the [requirements](/requirements.txt):
+To use this program, you must have Python 3.7 or higher installed on your system, and the [requirements](/requirements.txt):
 
 ```
 pip install -r requirements.txt
