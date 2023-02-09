@@ -42,7 +42,7 @@ def define_arguments():
 if __name__ == "__main__":
     from sys import version_info
 
-    version_info >= (8, 7), "%(prog)s requires Python 3.7+"
+    version_info >= (3, 7), "%(prog)s requires Python 3.7+"
 
     args = define_arguments()
     asyncio.get_event_loop().run_until_complete(make_requests(url=args.url, size=args.size))
